@@ -57,19 +57,41 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+.main-login p{
+    border: 2px solid #E5E8EC;
+    padding: 14px;
+    padding-left: 25px;
+    margin-left: 120px;
+    border-radius: 5px 0px 0px 5px;
+    border-right: 0px;
+    color: #212529;
+    font-weight: 600;
+}
+.main-login p::after{
+    content: "";
+    position: absolute;
+    background-image: url('/img/.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 14px;
+    width: 14px;
+    left: 35.5%;
+    top: 115px;
+
+}
 #search-form{
     max-width: 800px;
 }
 #search-form input{
-    width: 650px;
+    width: 525px;
     height: 45px;
-    padding-left: 30px;
+    padding: 1.5px;
+    padding-left: 48px;
     border: 2px solid #E5E8EC;
-    border-radius: 5px 0px 0px 5px;
+    border-left: 0px;
+   
 }
-#search-form input[type="text"] {
-    font-weight: bold; /* Đặt độ đậm cho chữ trong thẻ input */
-}
+
 #search-button{
     width: 110px;
     height: 50px;
@@ -575,7 +597,10 @@ body{
         margin: 0;
         padding: 5px;
     }
-    .top-link, .layout hr:nth-of-type(1), .main-login #search-form{
+    .top-link,
+     .layout hr:nth-of-type(1),
+      .main-login #search-form,
+      .main-login p{
         display: none;
     }
     .main-login{
