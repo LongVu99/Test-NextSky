@@ -59,12 +59,13 @@ body{
 }
 .main-login p{
     border: 2px solid #E5E8EC;
-    padding: 14px;
+    padding: 15px;
     padding-left: 25px;
     margin-left: 120px;
     border-radius: 5px 0px 0px 5px;
     border-right: 0px;
     color: #212529;
+    font-size: 14px;
     font-weight: 600;
 }
 .main-login p::after{
@@ -75,15 +76,15 @@ body{
     background-size: auto;
     height: 14px;
     width: 14px;
-    left: 35.5%;
-    top: 115px;
+    left: 35%;
+    top: 113px;
 
 }
 #search-form{
     max-width: 800px;
 }
 #search-form input{
-    width: 525px;
+    width: 539px;
     height: 45px;
     padding: 1.5px;
     padding-left: 48px;
